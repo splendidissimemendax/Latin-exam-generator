@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>generator</title>
+	<link rel="stylesheet" href="/_assets/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="" type="text/css" id="switcher-id">
+	<meta name="writer" content="Bee">
+	<meta name="description" content="a generator of random passages off my reading list">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<style>
+		:root {
+			--text: #302F2C;
+			--bg: #FEFBF4;
+			--accent: #DAA540;
+		}
+
+		body {
+			font-size: 1em;
+			line-height: 1.5;
+			background-color: var(--bg);
+			color: var(--text);
+		}
+
+		#content {
+			margin-top: 10rem;
+			margin-inline: auto;
+			width: 90%;
+			max-width: 900px;
+			border: 0.1rem solid var(--accent);
+			border-radius: 0.5rem;
+			padding: 2rem;
+		}
+
+		details {
+			border: 0.1rem solid var(--accent);
+			border-radius: 0.5rem;
+			padding: 0.5rem;
+		} 
+
+		.result {
+			text-align: center;
+			margin-bottom: 3rem;
+			font-weight: bold;
+			font-size: 2.5rem;
+			color: var(--accent);
+		}
+	</style>
+</head>
+
+<body>
+	<div id="content">
+		<main>
+			<h1>Your random passage is:</h1>
+
+			<div id="result"></div>
+		</main>
+	</div>
+
+	<script src="/_assets/generator.js"></script>
+</body>
+</html>
