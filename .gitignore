@@ -3,3 +3,4 @@ _assets/__pycache__/*
 exams/*.pdf
 exams/*.html
 _assets/used/*.md
+_assets/passages/*.md
