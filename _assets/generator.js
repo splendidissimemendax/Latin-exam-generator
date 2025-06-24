@@ -53,7 +53,7 @@ const rlCorp = [
 	},
 	{
 		auth: 'Cicero',
-		text: 'Against Cataline',
+		text: 'Against Catiline',
 		sections: [[1, 33]],
 		total: 363,
 		approx: true
@@ -147,7 +147,7 @@ const rlCorp = [
 		sections: [[0, 1162]]
 	}, 
 	{
-		auth: 'Pertius',
+		auth: 'Propertius',
 		text: 'Elegies',
 		sections: [[1, 22]],
 		total: 330,
